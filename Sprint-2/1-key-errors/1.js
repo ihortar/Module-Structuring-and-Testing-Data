@@ -14,7 +14,7 @@
 
 // console.log(decimalNumber);
 
-// =============> write your explanation here
+// =============> write your explanation here - decimalNumber was only inside the function
 
 // Finally, correct the code to fix the problem
 // =============> write your new code here
