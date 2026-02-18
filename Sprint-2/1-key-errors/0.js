@@ -9,5 +9,8 @@ function capitalise(str) {
   return str;
 }
 
-// =============> write your explanation here
+// =============> write your explanation here - we already declared "str" as a parametr so no need to do that second time
 // =============> write your new code here
+function capitalise(str) {
+  return str[0].toUpperCase() + str.slice(1);
+}
