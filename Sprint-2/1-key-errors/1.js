@@ -1,20 +1,27 @@
 // Predict and explain first...
 
 // Why will an error occur when this program runs?
-// =============> write your prediction here
+// =============> write your prediction here - will show error like "decimalNumber" has already been declared
 
 // Try playing computer with the example to work out what is going on
 
-function convertToPercentage(decimalNumber) {
-  const decimalNumber = 0.5;
-  const percentage = `${decimalNumber * 100}%`;
+// function convertToPercentage(decimalNumber) {
+//   const decimalNumber = 0.5;
+//   const percentage = `${decimalNumber * 100}%`;
 
-  return percentage;
-}
+//   return percentage;
+// }
 
-console.log(decimalNumber);
+// console.log(decimalNumber);
 
 // =============> write your explanation here
 
 // Finally, correct the code to fix the problem
 // =============> write your new code here
+function convertToPercentage(decimalNumber) {
+  return `${decimalNumber * 100}%`;
+}
+
+const decimalNumber = 0.5;
+console.log(convertToPercentage(decimalNumber));
+
